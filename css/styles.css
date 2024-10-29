@@ -36,9 +36,16 @@ nav {
 }
 .page-title {
   color: #f44336;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
 }
 .section-title {
   color: #3f51b5;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
 }
 .section-text {
   color: #ff5722;
@@ -51,22 +58,23 @@ nav {
 }
 .club-list .title {
   color: #4caf50;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
 }
 .club-list .text {
   color: #009688;
 }
 .club-list .link {
   color: #ffc107;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
 }
 .benefits > li {
   color: #d500f9;
 }
 .page-nav .link {
   color: #00bcd4;
-}
-
-.club-list .link {
-  color: #ffc107;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -75,10 +83,14 @@ nav {
 .club-list .link:hover,
 .club-list .link:focus {
   color: #f57f17;
+  text-decoration: underline;
 }
 .page-nav .link:active {
   color: #212121;
 }
 .club-list .link:active {
   color: #ff1744;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
