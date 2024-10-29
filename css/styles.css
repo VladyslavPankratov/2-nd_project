@@ -1,41 +1,13 @@
-h1 {
-  color: #f44336;
-}
-h2 {
-  color: #3f51b5;
-}
-h3 {
-  color: #4caf50;
-}
-p {
-  color: cyan;
-}
-a {
-  color: #ffc107;
-}
 header {
   background-color: #f5f5f5;
 }
 nav {
   background-color: rgba(0, 0, 255, 0.3);
 }
-#hero {
-  color: #3f51b5;
-}
-#clubs {
-  color: #9c27b0;
-}
-#benefits {
-  color: #00bcd4;
-}
-#programs {
-  color: #ff9800;
-}
 .page-header {
   background-color: #bdbdbd;
 }
 .page-title {
-  color: #f44336;
   font-size: 24px;
   font-weight: 500;
   font-style: italic;
@@ -45,14 +17,12 @@ nav {
   text-shadow: 2px 2px 4px #212121;
 }
 .section-title {
-  color: #3f51b5;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.333;
   letter-spacing: 1px;
 }
 .section-text {
-  color: #ff5722;
   line-height: 1.5;
   text-indent: 24px;
 }
@@ -63,36 +33,22 @@ nav {
   color: #ffffff;
 }
 .club-list .title {
-  color: #4caf50;
   font-size: 16px;
   text-align: center;
   line-height: 1.333;
 }
-.club-list .text {
-  color: #009688;
-}
 .club-list .link {
-  color: #ffc107;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
 }
-.benefits > li {
-  color: #d500f9;
-}
 .page-nav .link {
-  color: #00bcd4;
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
-  color: #18ffff;
-}
 .club-list .link:hover,
 .club-list .link:focus {
-  color: #f57f17;
   text-decoration: underline;
 }
 .page-nav .link:active {
