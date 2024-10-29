@@ -36,19 +36,25 @@ nav {
 }
 .page-title {
   color: #f44336;
-  font-family: "Oswald", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-style: italic;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #212121;
 }
 .section-title {
   color: #3f51b5;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Oswald", sans-serif;
+  line-height: 1.333;
+  letter-spacing: 1px;
 }
 .section-text {
   color: #ff5722;
+  line-height: 1.5;
+  text-indent: 24px;
 }
 .page-footer {
   background-color: #212121;
@@ -59,7 +65,8 @@ nav {
 .club-list .title {
   color: #4caf50;
   font-size: 16px;
-  font-family: "Oswald", sans-serif;
+  text-align: center;
+  line-height: 1.333;
 }
 .club-list .text {
   color: #009688;
@@ -75,6 +82,9 @@ nav {
 }
 .page-nav .link {
   color: #00bcd4;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -93,4 +103,29 @@ nav {
 }
 body {
   font-family: "Poppins", sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+.downloads .link {
+  text-decoration: none;
+}
+.downloads .link:hover,
+.downloads .link:focus {
+  text-decoration: underline;
+}
+.downloads .plan-name {
+  color: #ff1744;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+ul {
+  list-style-type: none;
 }
