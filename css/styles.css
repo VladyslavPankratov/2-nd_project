@@ -1,79 +1,72 @@
-header {
-  background-color: #f5f5f5;
-}
-nav {
-  background-color: rgba(0, 0, 255, 0.3);
-}
+/* Стилі для хедера */
 .page-header {
+  display: flex; /* Використовуємо Flexbox для вирівнювання елементів у хедері */
+  justify-content: space-between; /* Розподіляємо простір між логотипом та навігацією */
+  align-items: center; /* Вирівнюємо елементи по вертикалі */
+  padding: 10px 20px; /* Відступи всередині хедера */
   background-color: #bdbdbd;
 }
-.page-title {
-  font-size: 24px;
-  font-weight: 500;
-  font-style: italic;
-  text-align: center;
-  line-height: 1.333;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 4px #212121;
+
+/* Стилі для логотипа */
+.page-header a img {
+  display: block; /* Виправляє відображення картинки (логотипа) */
 }
-.section-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.333;
-  letter-spacing: 1px;
+
+/* Стилі для навігації */
+.page-nav {
+  display: flex; /* Вирівнюємо елементи навігації в один рядок */
+  gap: 20px; /* Відступи між елементами навігації */
 }
-.section-text {
-  line-height: 1.5;
-  text-indent: 24px;
-}
-.page-footer {
-  background-color: #212121;
-}
-.copyright-text {
-  color: #ffffff;
-}
-.club-list .title {
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.333;
-}
-.club-list .link {
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-}
+
 .page-nav .link {
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
+  color: #212121;
+  transition: color 0.3s ease;
 }
-.club-list .link:hover,
-.club-list .link:focus {
-  text-decoration: underline;
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #ff1744; /* Колір при наведенні */
 }
+
 .page-nav .link:active {
   color: #212121;
 }
-.club-list .link:active {
-  color: #ff1744;
+
+/* Стилі для блоку завантаження */
+.downloads {
+  display: flex; /* Вирівнюємо всі посилання в один рядок */
+  gap: 20px; /* Відступи між посиланнями */
+  flex-wrap: wrap; /* Якщо посилань багато, дозволяємо перенос на новий рядок */
 }
-body {
-  font-family: "Poppins", sans-serif;
-  color: #212121;
-  font-size: 14px;
-  background-color: #fafafa;
-  line-height: 1.5;
-}
+
 .downloads .link {
   text-decoration: none;
+  padding: 8px 12px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: block; /* Надаємо посиланню блочний вигляд */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap; /* Забороняємо перенос тексту всередині посилання */
 }
+
 .downloads .link:hover,
 .downloads .link:focus {
+  background-color: #ff1744;
+  color: #ffffff; /* Колір тексту при наведенні */
   text-decoration: underline;
 }
-.downloads .plan-name {
-  color: #ff1744;
+
+.downloads .link:focus {
+  color: #000000; /* Колір тексту при фокусі */
 }
+
+.downloads .plan-name {
+  color: #0a090a;
+}
+
 h1,
 h2,
 h3,
@@ -82,6 +75,7 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
 }
+
 ul {
   list-style-type: none;
 }

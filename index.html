@@ -6,24 +6,28 @@
       name="description"
       content="Planet Fatness description meta tag content"
     />
+
+    <!-- Зовнішні ресурси -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500&display=swap"
+      as="style"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <meta
-      name="description"
-      content="Planet Fatness description meta tag content"
-    />
-    <title>Planet Fatness is the place for beginners and pros!</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Planet Fatness is the place for beginners and pros!</title>
   </head>
+
   <body>
     <!-- Хедер сторінки -->
     <header class="page-header">
@@ -34,6 +38,7 @@
           width="40"
           height="40"
       /></a>
+
       <!-- Навігація з посиланням на розділи -->
       <nav>
         <ul class="page-nav">
@@ -44,6 +49,7 @@
         </ul>
       </nav>
     </header>
+
     <!--Головна частина-->
     <main>
       <h1 id="hero" class="page-title">Planet Fatness</h1>
@@ -67,6 +73,7 @@
         to adapt your body to new conditions and with friendly crew to motivate
         you and help on your way.
       </p>
+
       <section>
         <h2 id="clubs" class="section-title">Find us near you</h2>
         <p class="section-text">
@@ -79,6 +86,7 @@
           offers smoothies. soups, salads, and other healthy snacks prepared
           fresh daily. See where we're currently operating.
         </p>
+
         <!-- Посилання на карти -->
         <ul class="club-list">
           <li>
@@ -86,6 +94,7 @@
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/B031.jpg"
               alt="PF Power Zone. A modern gym equipped with treadmills."
               width="320"
+              loading="lazy"
             />
             <h3 class="title">PF Power Zone</h3>
             <p class="text">
@@ -103,6 +112,7 @@
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/B032.jpg"
               alt="PF Fit and Fast. A gym with indoor bikes behind a glass door."
               width="320"
+              loading="lazy"
             />
             <h3 class="title">PF Fit and Fast</h3>
             <p class="text">
@@ -119,6 +129,7 @@
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/B033.jpg"
               alt="PF Body Sculpting. A studio with fitness balls and trx straps."
               width="320"
+              loading="lazy"
             />
             <h3 class="title">PF Body Sculpting</h3>
             <p class="text">
@@ -133,9 +144,9 @@
           </li>
         </ul>
       </section>
+
       <section>
         <h2 id="benefits" class="section-title">Why choose Planet Fatness?</h2>
-
         <p class="section-text">
           We're bringing accessible, on-trend fitness to everyone! We are more
           than just a gym - we are a community. We are the crew to help you
@@ -167,6 +178,7 @@
           </li>
         </ol>
         <p>Do you want to know more? Contact us!</p>
+
         <!-- Контактна база -->
         <address>
           Call us: <a href="tel:+070174069900">+070174069900</a><br />
@@ -179,9 +191,11 @@
           Mountain View, CA 228322<br />
           USA
         </address>
+
         <!-- Автодозвон -->
         <button type="button">Request a callback</button>
       </section>
+
       <section>
         <h2 id="programs" class="section-title">
           How to stop doubting and start exercising regularly
@@ -196,6 +210,7 @@
           and focus on developing a habit of doing sport regularly. So, we offer
           you a few training programs for beginners.
         </p>
+
         <!-- Посилання на скачування -->
         <ul class="downloads">
           <li>
@@ -229,29 +244,36 @@
         </ul>
       </section>
     </main>
+
     <!--Футер-->
     <footer class="page-footer">
       <ul>
         <li>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img
-            src=https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04insta.svg
-            alt="Instagram" width="32" height="32">
-          </a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04insta.svg"
+              alt="Instagram"
+              width="32"
+              height="32"
+          /></a>
         </li>
         <li>
-          <a href="https://www.facebook.com/" target="_blank">
-            <img
-            src=https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04facebook.svg
-            alt="Facebook" width="32" height="32">
-          </a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04facebook.svg"
+              alt="Facebook"
+              width="32"
+              height="32"
+          /></a>
         </li>
         <li>
-          <a href="https://www.youtube.com/" target="_blank">
-            <img
-            src=https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04youtube.svg
-            alt="YouTube" width="32" height="32">
-          </a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img
+              src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04youtube.svg"
+              alt="YouTube"
+              width="32"
+              height="32"
+          /></a>
         </li>
       </ul>
       <p class="copyright-text">
